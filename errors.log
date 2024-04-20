@@ -1,0 +1,9 @@
+[14-Apr-2024 19:00:20 UTC] PHP Fatal error:  Cannot use 'String' as class name as it is reserved in /home/u306643695/domains/dumo.se/public_html/talk/swearfilter.php on line 4
+[14-Apr-2024 19:00:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "filterSwears" in /home/u306643695/domains/dumo.se/public_html/talk/swearfilter.php:25
+Stack trace:
+#0 /home/u306643695/domains/dumo.se/public_html/talk/routes.php(18): include()
+#1 /home/u306643695/domains/dumo.se/public_html/talk/router.php(81): {closure}()
+#2 /home/u306643695/domains/dumo.se/public_html/talk/router.php(6): route()
+#3 /home/u306643695/domains/dumo.se/public_html/talk/routes.php(34): get()
+#4 {main}
+  thrown in /home/u306643695/domains/dumo.se/public_html/talk/swearfilter.php on line 25

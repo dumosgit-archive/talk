@@ -1,5 +1,5 @@
 # talk
-Basic chat app made in PHP
+basic chat app made in php
 
 # want the client source code?
-Just press CTRL+U on https://talk.dumo.se , it's all in one HTML file.
+it's at views/index.php
