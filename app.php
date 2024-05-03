@@ -41,7 +41,7 @@ get('/message', function(){
 
 //get the chat room
 get('/room', function() {
-   $file = file_get_contents('./data/room.txt', FILE_USE_INCLUDE_PATH);
+   $file = stripcslashes(file_get_contents('./data/room.txt', FILE_USE_INCLUDE_PATH));
    echo $file;
 });
 
